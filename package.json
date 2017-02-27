@@ -1,0 +1,33 @@
+{
+  "name": "storicosm",
+  "version": "1.0.0",
+  "description": "Encyclopedic site for creating background and settings for stories",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmkanode/StoriCosm.git"
+  },
+  "author": "Christopher M. Kanode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmkanode/StoriCosm/issues"
+  },
+  "homepage": "https://github.com/cmkanode/StoriCosm#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "express-rate-limit": "^2.6.0",
+    "express-session": "^1.15.1",
+    "helmet": "^3.4.1",
+    "mocha": "^3.2.0",
+    "sqlite3": "^3.1.8",
+    "uuid": "^3.0.1"
+  }
+}
